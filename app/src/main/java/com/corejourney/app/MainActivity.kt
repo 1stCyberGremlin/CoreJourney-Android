@@ -46,7 +46,7 @@ class MainActivity : AppCompatActivity() {
         }
 
         adView = AdView(this).apply {
-            adSize = AdSize.BANNER
+            setAdSize(AdSize.BANNER)
             adUnitId = "ca-app-pub-3940256099942544/6300978111"
             layoutParams = LinearLayout.LayoutParams(
                 ViewGroup.LayoutParams.MATCH_PARENT,
